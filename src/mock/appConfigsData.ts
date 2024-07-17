@@ -1,0 +1,42 @@
+import IP from './hostConfig';
+
+const launchScreenImgs = [
+  `http://${IP}:7005/public/imgs/big/7.jpg`,
+  `http://${IP}:7005/public/imgs/big/8.jpg`,
+  `http://${IP}:7005/public/imgs/big/10.jpg`,
+];
+
+const homeQuickSearchBar = [
+  {
+    title: '全部',
+    img: `http://${IP}:7005/public/appAssets/homePageTabs/all.png`,
+    keyWord: '全部',
+    id: '0',
+  },
+  {
+    title: '美食',
+    img: `http://${IP}:7005/public/appAssets/homePageTabs/food.png`,
+    keyWord: '美食',
+    id: '1',
+  },
+  {
+    title: '快递',
+    img: `http://${IP}:7005/public/appAssets/homePageTabs/express.png`,
+    keyWord: '快递',
+    id: '2',
+  },
+  {
+    title: 'Replace',
+    img: `http://${IP}:7005/public/appAssets/homePageTabs/class.png`,
+    keyWord: '代课',
+    id: '3',
+  },
+  {
+    title: '兼职',
+    img: `http://${IP}:7005/public/appAssets/homePageTabs/job.png`,
+    keyWord: '兼职',
+    id: '4',
+  },
+];
+
+export { launchScreenImgs, homeQuickSearchBar };

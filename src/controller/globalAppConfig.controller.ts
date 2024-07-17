@@ -11,8 +11,8 @@ export class GlobalAppConfigController {
   globalAppConfigService: GlobalAppConfigService;
 
   @Get()
-  async getConfig() {
-    const configs = await this.globalAppConfigService.getConfigs();
-    return { success: true, message: 'OK', data: configs };
+  getConfig() {
+    const configs = this.globalAppConfigService.getConfigs();
+    return { success: true, message: 'success', data: configs, code: 200 };
   }
 }
