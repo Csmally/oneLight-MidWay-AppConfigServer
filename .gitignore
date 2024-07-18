@@ -11,4 +11,3 @@ run/
 *.un~
 .tsbuildinfo
 .tsbuildinfo.*
-src/mock/hostConfig.ts
